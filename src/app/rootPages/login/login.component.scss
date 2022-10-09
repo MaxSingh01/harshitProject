@@ -1,0 +1,62 @@
+.fadeIn {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.Btn1 {
+  border: unset;
+
+
+  height: 20%;
+  margin: 18px 0px 18px 0px;
+  // background: white;
+  text-decoration: underline;
+  text-decoration-color: #92badd;
+  font-weight: bold;
+}
+.hover {
+  border: unset;
+  width: 31%;
+  height: 20%;
+  /* margin: 10px 0px 18px 18px; */
+  background: white;
+  color: #92badd;
+  font-weight: bold;
+}
+.Btn2 {
+  border: unset;
+  height: 20%;
+  margin: 18px 0px 18px 0px;
+  color: grey;
+  background: white;
+  font-weight: bold;
+}
+.Btn2:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #92badd;
+}
+.hover:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #92badd;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  font-family: Arial Unicode MS, Myriad, ms sans-serif, Helvetica, Arial,
+    sans-serif;
+}
+.footer {
+  z-index: 0;
+}
